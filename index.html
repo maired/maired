@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Aplicación de Manualidades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="portada" id="portada">
+        <h1>Bienvenido a Mi Aplicación de Manualidades</h1>
+        <p>Descubre manualidades fáciles y divertidas que puedes hacer con materiales que tienes en casa.</p>
+        <button id="btnEntrar">Entrar</button>
+    </div>
+
+    <div class="container" id="contenido" style="display: none;">
+        <h1>Manualidades Hechas en Casa</h1>
+        
+        <div class="sobre-productos">
+            <h2>Sobre los Productos</h2>
+            <p>Todo está hecho con materiales que puedes encontrar en casa, son manualidades fáciles de hacer que puedes regalarle a alguien que quieras.</p>
+            <ul>
+                <li><strong>Piezas Únicas y Personalizadas:</strong> Cada artículo está cuidadosamente hecho a mano, asegurando calidad y originalidad en cada detalle.</li>
+                <li><strong>Variedad de Estilos y Materiales:</strong> Desde decoraciones para el hogar hasta accesorios para la ropa, ofrecemos una amplia gama de productos en diversos estilos y materiales.</li>
+                <li><strong>Ideales para Regalar:</strong> Encuentra el regalo perfecto para cualquier ocasión, hecho con amor y dedicación.</li>
+                <li><strong>Sostenibilidad y Originalidad:</strong> Nos comprometemos con el uso de materiales sostenibles y técnicas respetuosas con el medio ambiente, promoviendo la originalidad y la creatividad.</li>
+                <li><strong>Personalización Disponible:</strong> ¿Buscas algo específico? Ofrecemos opciones de personalización para que tu compra sea verdaderamente única y especial.</li>
+                <li><strong>Garantía de Calidad:</strong> Nos aseguramos de que cada pieza cumpla con los más altos estándares de calidad, para que disfrutes de un producto duradero y bien elaborado.</li>
+            </ul>
+        </div>
+
+        <h2>Galería de Manualidades</h2>
+        <div class="galeria">
+            <img src="imagen1.jpg" alt="Manualidad 1">
+            <img src="imagen2.jpg" alt="Manualidad 2">
+            <img src="imagen3.jpg" alt="Manualidad 3">
+        </div>
+
+        <form id="miFormulario">
+            <input type="text" id="mensaje" placeholder="Escribe tu mensaje" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="resultado" class="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
